@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.topnav ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+  
+.topnav li {
+
+    float: left;
+    width: 20%;
+}
+  
+.topnav li a {
+    display: block;
+    color: rgb(160, 157, 157);
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+.topnav li a:hover  {
+    color: rgb(0, 0, 0);
+    background-color: rgb(85, 84, 81);
+}
+
+.col-1 {
+    padding-top: 50px;
+    width: 33%;
+    padding: 50px 10px 0 0;
+    float: left;
+    text-align: center;
+}
+
+.col-2 {
+    padding-top: 50px;
+    width: 33%;
+    padding: 50px 10px 0 0;
+    float: left;
+    text-align: center;
+    font-size: 200%;    
+}
+
+.col-3 {
+    padding-top: 50px;
+    width: 33%;
+    padding: 50px 10px 0 0;
+    float: left;
+    text-align: center;
+}
+
+.mainblock1 {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float:left;
+    border:none;
+    box-sizing:border-box;
+    
+}
+
+.mainblock2 {
+  
+    width: 40%;
+    float:left;
+    border:none;
+    padding: 0px;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.mainblock3 {
+    width: 30%;
+    float:left;
+    border:none;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.mainblock4 {
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    float:left;
+    border:none;
+    box-sizing: border-box;
+    
+}
+
+.mainblock5 {
+  
+    width: 35%;
+    float:left;   
+    margin-bottom: 50px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.mainblock6 {
+    width: 30%;
+    float:left;
+    margin-bottom: 50px;
+    box-sizing:border-box;
+    text-align: right;
+}
+
+.center {
+    text-align: left;
+}
+
+.center1 {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.center10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(161, 47, 47);
+    text-align: center;
+    text-decoration: none;
+}
+.center2 {
+    text-align: center;
+}
+
+.centera {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.center2a {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.center2aa {
+    text-align: left;
+    margin: 10%;
+}
+
+.center3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 157, 157);
+    text-align: center;
+    font-size: 150%;
+    word-wrap: break-word;
+}
+
+.center4 {
+    text-align: center;
+}
+
+.center5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 157, 157);
+    text-align: center;
+    font-size: 50%;
+}
+
+.center6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    color:  rgb(160, 157, 157);
+    text-align: center;
+    text-overflow: clip;
+}
+.center7 {
+    text-align: center;
+    padding-left: 10%;
+    
+}
+
+.center8 {
+    text-align: left;
+    padding-left: 10%;
+    margin-left: 10%;
+}
+.center9 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 128, 128);
+    text-align: left;
+    font-size: 200%;
+}
+
+.center11 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 128, 128);
+    font-size: 80%;
+    text-align: left;
+}
+
+.center12 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 128, 128);
+    font-size: 80%;
+    text-align: center;
+}
+
+.clr:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.categories {
+    padding:10%;      
+}
+
+.categories h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+    color: rgb(160, 157, 157);
+    text-align: center;
+}
+
+.categories h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+    color: rgb(160, 157, 157);
+    text-align: left;
+}
+
+.cat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+    color: rgb(160, 157, 157);
+    text-align: center;
+    text-decoration: none;
+}
+
+.categories ul {
+    padding:0px;
+    padding-left:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    /*list-style:square;                    /* this for square bullet points*/
+    list-style: none;                       /*this is for no bullet points*/  
+}
+
+.categories li {
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: dotted 5px #6c78e6;
+}
+
+.categories a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(160, 157, 157);
+}
+
+.categories a:hover {
+    color: brown;
+}
+
+
+.legalblock1
+{
+    width: 50%;
+    float: left;
+    border: none;
+    padding: 20px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+}
+
+.legalblock2
+{
+    width: 50%;
+    float: right;
+    border: none;
+    padding: 20px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    clear: right;
+}
+
+.footer {
+    font-size: 0.75rem;
+}
+  
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+    
+.footer li {
+    float: left;
+    width: 16.66666%;
+   
+}
+    
+.footer li a {
+    display: block;
+    color: rgb(160, 157, 157);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+    /* Change the link color to #111 (black) on hover */
+.footer li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(85, 84, 81);
+}
+
+.copyright {
+    color: rgb(160, 157, 157);
+    text-align: center;
+    margin-top: 1%;    
+}
+
+.audio {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 2%;
+    display: inline-block;
+    margin-top: 50px;
+    clear: both;
+}
+
+form {
+    padding: 0;
+}
+ 
+.form-group {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-group label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(160, 157, 157);
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-group input {    
+    border: 2px solid rgb(160, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    width: 80%;   
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(160, 157, 157);
+    border: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    padding-bottom: 50px;
+}
+
+.privacy {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: rgba(97, 51, 11, 0.692);
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgba(97, 51, 11, 0.692);
+    color: #e4fc0d;
+}
+
+.button {
+    font-size: 150%;
+    background-color:rgb(0, 0, 0);    
+    color: rgb(161, 161, 161);
+    padding: 10px 15px;
+    border: none; 
+    text-decoration: none;
+    width: 80%;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 128, 128);
+    font-size: 80%;
+    text-align: left;
+}
+
+
+
+    
